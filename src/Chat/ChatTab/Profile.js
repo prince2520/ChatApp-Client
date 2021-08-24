@@ -112,7 +112,7 @@ const Profile = (props) => {
                 <FontAwesomeIcon onClick={()=>props.setProfileSelected(false)} icon={faBackspace} size="2x" color="#ee4c74"  />
                 <h1>Profile</h1>
             </div>
-            <input accept='image/*' ref={imageRef} type="file" style={{display:"none"}} onChange={()=> {
+            <input accept='image/*' ref={imageRef} type="file" style={{display:"none"}} onChange={(event)=> {
                 const file = event.target.files[0]
                 if (file && file.type.substr(0, 5) === "image") {
                     try {
