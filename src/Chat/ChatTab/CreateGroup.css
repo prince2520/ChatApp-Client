@@ -1,0 +1,118 @@
+.create_tab{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: grid;
+    grid-template-rows: 7rem  auto ;
+    align-items: start;
+    width: 100%;
+    background: #393E46;
+
+}
+
+.create_tab .create_title{
+    background-color: #3d434c;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 30% auto;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.create_title h2{
+    color: #d4cfcf;
+    font-family: 'Nunito', sans-serif;
+    justify-self: start;
+}
+
+.create_tab form{
+    display: grid;
+    grid-row-gap: 1rem;
+    padding: 0.5rem;
+}
+
+.create_form label{
+    font-family: 'Karla', sans-serif;
+    color: #ee4c74;
+    justify-self: start;
+    font-size: 1.5rem;
+}
+
+.create_form input {
+    font-size: 1rem;
+    background-color: #393E46 ;
+    border: 0;
+    color: #d4cfcf;
+    font-family: 'Karla', sans-serif;
+    border-bottom: 2px solid #ee4c74;
+}
+
+.create_form input:hover,
+.create_form input:active{
+    background-color: #3d434c;
+}
+
+.create_form input:focus{
+    outline: none;
+}
+
+.create_form button{
+    background-color: #e24870;
+    border: 0;
+    width: 50%;
+    justify-self: center;
+    border-radius: 10px;
+    color: white;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.create_form button:hover {
+    background-color: white;
+    color: #ee4c74;
+    cursor: pointer;
+}
+
+
+.create_tab img {
+    border-radius: 50% ;
+    width: 9rem;
+    justify-self: center;
+    align-self: center;
+}
+
+
+.groupImage-overlay{
+    width: 10rem;
+    height:10rem;
+    border-radius:50%;
+    background-color:gray;
+    position: absolute;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Karla', sans-serif;
+    color: #ee4c74;
+}
+
+.groupImage-overlay:hover{
+    opacity: 0.4;
+
+}
+.groupImage-overlay--content{
+    opacity: 0;
+}
+
+.groupImage-overlay--content:hover{
+    opacity: 1;
+    border-radius: 50%;
+    width: 10rem;
+    height:10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+

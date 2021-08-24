@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    background-color: #222831;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow-x: hidden ;
+}
+
+.login-form {
+    height: 25rem;
+    width: 20rem;
+    background-color: #393E46;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 2px #222831 ;
+    display: grid;
+    grid-row-gap: 0.5rem;
+    max-width: 20rem;
+}
+
+.login-form h1{
+    padding-top: 1rem;
+    color: white;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+
+.login-form input{
+    font-family: 'Karla', sans-serif;;
+    border-radius: 10px;
+    height: 2.0rem;
+    width: 60%;
+    background-color: #6f7179;
+    color: #e6f0f8;
+    border-color: #393E46 ;
+    border-width: 0;
+    place-self: center;
+    padding-left:8px;
+    outline: none;
+}
+
+.login-form input:hover,
+.login-form input:active{
+    background-color: #b4b5c6;
+    color: #222831;
+}
+
+
+.login-form p{
+    font-size: 0.9rem;
+}
+
+.login-form label,p{
+    font-family: 'Karla', sans-serif;;
+    color: #d4cfcf;
+    margin: 0;
+}
+
+.login-form button{
+    width: 40%;
+    height: 2rem;
+    background-color: #ee4c74;
+    border-width: 0;
+    color: white;
+    border-radius: 5px;
+    place-self: center;
+    font-family: 'Karla', sans-serif;;
+
+}
+
+
+.login-form button:hover{
+    background-color:white ;
+    color: #ee4c74;
+    cursor: pointer;
+}
+
+.login-form a {
+    font-family: 'Karla', sans-serif;;
+    color: rgb(138, 180, 248);
+    font-size: 0.9rem;
+
+}
+
+.login-form label{
+    justify-self: start;
+    align-self: end;
+    padding-left:4rem;
+}
+
+::placeholder {
+    color: #3e75d4;
+}
+
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 8px;
+    background-color: grey;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: #6d6969;
+}
+
+ .logging-error{
+     color: #FF616D;
+     width: 60%;
+     justify-self: center;
+     border-radius: 5px;
+}
+

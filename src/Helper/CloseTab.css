@@ -1,0 +1,11 @@
+.close__tab{
+ display: none;
+ grid-column: 3/4;
+}
+
+@media (max-width: 60rem) {
+ .close__tab{
+  display: block;
+ }
+ 
+}

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    background-color: #222831;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.signUp-form {
+    height: 35rem;
+    width: 20rem;
+    background-color: #393E46;
+    border-radius: 10px;
+    box-shadow: 0 0 2px 2px #222831 ;
+    display: grid;
+    grid-row-gap: 0.5rem;
+}
+
+.signUp-form h1{
+    padding-top: 1rem;
+    color: white;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.signUp-form input{
+    font-family: 'Karla', sans-serif;;
+    border-radius: 10px;
+    height: 2.0rem;
+    width: 60%;
+    background-color: #6f7179;
+    color: #e6f0f8;
+    border-color: #393E46 ;
+    border-width: 0;
+    place-self: center;
+    padding-left:8px;
+}
+
+.signUp-form input:hover,
+.signUp-form input:active{
+    background-color: #b4b5c6;
+    color: #222831;
+
+}
+
+.signUp-form p{
+    font-size: 0.9rem;
+}
+
+.signUp-form label,p{
+    font-family: 'Karla', sans-serif;;
+    color: #d4cfcf;
+    margin: 0;
+}
+
+.signUp-form button{
+    width: 40%;
+    height: 2rem;
+    background-color: #ee4c74;
+    border-width: 0;
+    color: white;
+    border-radius: 5px;
+    place-self: center;
+    font-family: 'Karla', sans-serif;;
+
+}
+
+
+.signUp-form button:hover{
+    background-color: white;
+    color: #ee4c74;
+    cursor: pointer;
+}
+
+.signUp-form a {
+    font-family: 'Karla', sans-serif;;
+    color: rgb(138, 180, 248);
+    font-size: 0.9rem;
+
+}
+
+.signUp-form label{
+    justify-self: start;
+    align-self: end;
+    padding-left:4rem;
+}
+
+::placeholder {
+    color: #c7cedb;
+}
+
+.signUp-error{
+    color: #FF616D;
+    width: 60%;
+    justify-self: center;
+    border-radius: 5px;
+}

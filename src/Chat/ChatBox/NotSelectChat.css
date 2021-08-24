@@ -1,0 +1,47 @@
+.please_select_chat {
+    display: grid;
+    grid-template-rows:  50% 20% auto ;
+    justify-items: center;
+    align-items: center;
+}
+
+.please_select_chat .sidebar__icon{
+    display: none;
+    justify-self: start;
+    margin-left: 1rem;
+}
+
+.please_select_chat img {
+    width: 50%;
+    max-width: 14rem;
+    border-radius: 50%;
+    min-width: 10rem;
+}
+
+.please_select_chat h1{
+    font-family: 'Karla', sans-serif;;
+    width: 80%;
+    color: #ee4c74;
+    margin: 0;
+    font-size: 2rem;
+    align-self: center;
+}
+
+.please_select_chat p {
+    padding-top: 1rem;
+    align-self: start;
+    text-align: center;
+}
+
+@media (max-width: 60rem) {
+    .please_select_chat{
+        grid-template-rows: 5rem 50% 20% auto;
+    }
+
+    .please_select_chat .sidebar__icon{
+        display: block;
+        justify-self: start;
+        margin-left: 2rem;
+    }
+
+}

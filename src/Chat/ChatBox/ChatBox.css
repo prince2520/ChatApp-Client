@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;700&display=swap');
+
+.box{
+    background-color: #363c43;
+    border-radius: 5px;
+    display: grid;
+    grid-template-rows: 4.5rem auto 3rem;
+    padding-top: 0.4rem;
+    padding-bottom:0.8rem ;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    position: relative;
+}
+
+.box input{
+    font-family: 'Karla', sans-serif;
+    font-size: 1rem;
+    width: 100%;
+    background-color:#3d434c;
+    border: 0;
+    border-radius: 0.4rem;
+    height: 3rem;
+    padding: 0.4rem;
+    color: #dbd4d4;
+    outline: none;
+}
+.box input:hover,
+.box input:active{
+    background-color: #505764;
+}
+
+.box .friend_profile{
+    background-color: #3d434c;
+    border-radius: 5px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 5rem auto;
+}
+.friend_profile .sidebar__icon{
+    display: none;
+    justify-self: center;
+    align-self: center;
+    margin-left: 1rem;
+}
+
+
+
+.lists{
+    list-style: none;
+    padding: 0;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.lists li{
+    margin: 0.2rem;
+    display: flex;
+}
+
+li .message{
+    max-width:60%;
+    background-color: #454d56;
+    padding: 0.2rem 0.7rem;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0 0.2rem;
+}
+
+.list_personal{
+    justify-content: flex-end;
+}
+
+.list_personal p{
+    background-color:#ee4c74;
+}
+.list_personal .useremail{
+    background-color: #363c43;
+}
+
+.paper-plane{
+    display: inline-block;
+    position: absolute;
+    bottom: 1.5rem;
+    right: 1rem;
+}
+
+.smile{
+    display: inline-block;
+    position: absolute;
+    bottom: 1.5rem;
+    right: 3.5rem;
+}
+
+.phone{
+    display: inline-block;
+    position: absolute;
+    bottom: 1rem;
+    right: 2.9rem;
+}
+
+h3{
+    margin: 0;
+    color: white;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    justify-self: start;
+    align-self: center;
+}
+
+.emoji_box{
+    position: absolute;
+}
+
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 5;
+}
+
+
+@media (max-width: 60rem) {
+    .box .friend_profile {
+        grid-template-columns: 3rem 5rem auto;
+    }
+
+    .friend_profile  .sidebar__icon{
+        display: block;
+        justify-self: start;
+    }
+}

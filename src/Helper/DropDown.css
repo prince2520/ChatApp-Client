@@ -1,0 +1,10 @@
+.dropdown{
+    grid-column: 3/4 ;
+}
+
+@media (max-width: 60rem) {
+    .dropdown{
+        justify-self: end;
+        grid-column: 2/3 ;
+    }
+}
