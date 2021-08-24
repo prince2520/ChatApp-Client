@@ -22,7 +22,7 @@ import {privateUserActions} from "../../store/private-user";
 
 import  './ChatTab.css';
 
-const serverUrl = process.env.SERVER;
+const serverUrl = 'https://chatapp-serve.herokuapp.com';
 
 const ChatTab = () =>{
     const [search, setSearch] = useState();

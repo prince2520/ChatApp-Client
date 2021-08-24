@@ -7,7 +7,7 @@ import {useDispatch} from "react-redux";
 import {groupActions} from "../../store/group";
 import {joinGroupHandler} from "../../Helper/socket";
 
-const serverUrl = process.env.SERVER;
+const serverUrl = 'https://chatapp-serve.herokuapp.com';
 
 
 const JoinGroup = (props) => {

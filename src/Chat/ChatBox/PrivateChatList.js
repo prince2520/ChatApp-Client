@@ -10,7 +10,7 @@ import SideBarIcon from "../../Helper/SideBarIcon";
 import LoaderSpinner from "../../Helper/LoaderSpinner";
 import NoMessage from "../ChatTab/NoMessage";
 
-const serverUrl = process.env.SERVER;
+const serverUrl = 'https://chatapp-serve.herokuapp.com';
 
 let receiver = undefined;
 let sender = undefined;

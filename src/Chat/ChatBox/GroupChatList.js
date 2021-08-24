@@ -13,7 +13,7 @@ import NoMessage from "../ChatTab/NoMessage";
 import LoaderSpinner from "../../Helper/LoaderSpinner";
 import SideBarIcon from "../../Helper/SideBarIcon";
 
-const serverUrl = process.env.SERVER;
+const serverUrl = 'https://chatapp-serve.herokuapp.com';
 
 let months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun",
     "July", "Aug", "Sept", "Oct", "Nov", "Dec"

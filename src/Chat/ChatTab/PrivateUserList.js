@@ -4,7 +4,7 @@ import {privateUserActions} from "../../store/private-user";
 import {useDispatch, useSelector} from "react-redux";
 import AuthContext from "../../store/auth-context";
 
-const serverUrl = process.env.SERVER;
+const serverUrl = 'https://chatapp-serve.herokuapp.com';
 
 const PrivateUserList = () => {
     const authctx = useContext(AuthContext);

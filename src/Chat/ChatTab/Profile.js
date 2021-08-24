@@ -5,7 +5,7 @@ import React, {useContext, useEffect, useState} from "react";
 import AuthContext from "../../store/auth-context";
 import Resizer from "react-image-file-resizer";
 import {storage} from "../../Helper/firebase";
-const serverUrl = process.env.SERVER;
+const serverUrl = 'https://chatapp-serve.herokuapp.com';
 
 const Profile = (props) => {
     const authCtx = useContext(AuthContext)

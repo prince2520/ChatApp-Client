@@ -5,7 +5,7 @@ import AuthContext from "../../store/auth-context";
 import {privateUserActions} from "../../store/private-user";
 import {joinGroupHandler} from "../../Helper/socket";
 
-const serverUrl = process.env.SERVER;
+const serverUrl = 'https://chatapp-serve.herokuapp.com';
 
 const GroupList = () => {
     const dispatch = useDispatch();

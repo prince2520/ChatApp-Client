@@ -1,7 +1,7 @@
 import React,{useState,useEffect} from "react";
 import {useHistory} from "react-router-dom";
 
-const serverUrl = process.env.SERVER;
+const serverUrl = 'https://chatapp-serve.herokuapp.com';
 
 
 const AuthContext = React.createContext({
