@@ -2,7 +2,7 @@ import io from 'socket.io-client';
 
 let socket;
 
-const serverUrl = 'https://chatapp-cli.herokuapp.com';
+const serverUrl = 'https://chatapp-serve.herokuapp.com/';
 
 export const initiateSocket = (userName) => {
     socket = io(serverUrl, {transports: ['websocket', 'polling', 'flashsocket']});
