@@ -1,7 +1,7 @@
 import React,{useState,useEffect} from "react";
 import {useHistory} from "react-router-dom";
 
-const serverUrl = 'http://localhost:5000';
+const serverUrl = process.env.SERVER;
 
 
 const AuthContext = React.createContext({

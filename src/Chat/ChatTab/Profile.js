@@ -5,7 +5,7 @@ import React, {useContext, useEffect, useState} from "react";
 import AuthContext from "../../store/auth-context";
 import Resizer from "react-image-file-resizer";
 import {storage} from "../../Helper/firebase";
-const serverUrl = 'http://localhost:5000';
+const serverUrl = process.env.SERVER;
 
 const Profile = (props) => {
     const authCtx = useContext(AuthContext)

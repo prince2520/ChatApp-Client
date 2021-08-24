@@ -5,7 +5,7 @@ import AuthContext from "../../store/auth-context";
 import {privateUserActions} from "../../store/private-user";
 import {joinGroupHandler} from "../../Helper/socket";
 
-const serverUrl = 'http://localhost:5000';
+const serverUrl = process.env.SERVER;
 
 const GroupList = () => {
     const dispatch = useDispatch();

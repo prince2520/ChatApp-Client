@@ -4,7 +4,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faPaperPlane, faSmileWink} from "@fortawesome/free-solid-svg-icons";
 import AuthContext from "../../store/auth-context";
 import { Picker } from 'emoji-mart'
-const serverUrl = 'http://localhost:5000';
+const serverUrl = process.env.SERVER;
 import {groupChatActions} from "../../store/group-message";
 import 'emoji-mart/css/emoji-mart.css'
 import './emote.css'

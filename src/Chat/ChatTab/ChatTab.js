@@ -22,7 +22,7 @@ import {privateUserActions} from "../../store/private-user";
 
 import  './ChatTab.css';
 
-const serverUrl = 'http://localhost:5000';
+const serverUrl = process.env.SERVER;
 
 const ChatTab = () =>{
     const [search, setSearch] = useState();

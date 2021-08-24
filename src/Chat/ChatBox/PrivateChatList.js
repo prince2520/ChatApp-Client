@@ -10,7 +10,7 @@ import SideBarIcon from "../../Helper/SideBarIcon";
 import LoaderSpinner from "../../Helper/LoaderSpinner";
 import NoMessage from "../ChatTab/NoMessage";
 
-const serverUrl = 'http://localhost:5000';
+const serverUrl = process.env.SERVER;
 
 let receiver = undefined;
 let sender = undefined;

@@ -7,7 +7,7 @@ import {useDispatch} from "react-redux";
 import {groupActions} from "../../store/group";
 import {joinGroupHandler} from "../../Helper/socket";
 
-const serverUrl = 'http://localhost:5000';
+const serverUrl = process.env.SERVER;
 
 
 const JoinGroup = (props) => {
