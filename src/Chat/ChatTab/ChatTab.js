@@ -60,7 +60,7 @@ const ChatTab = () =>{
 
 
     const addUserInPrivateChat = async () => {
-        const response  = await fetch(`${serverUrl}/group/addPrivateChat`,{
+        const response  = await fetch(`${serverUrl}/private/addPrivateChat`,{
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
